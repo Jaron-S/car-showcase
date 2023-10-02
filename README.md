@@ -11,7 +11,7 @@
 
 The Car Showcase App allows users to search for a wide variety of cars available from 2015 to 2023. The application uses the API Ninjas service to fetch car details and Imagin.Studio's stock car image API for visual representation. Whether you are a car enthusiast or in the market for a new vehicle, this app provides a comprehensive view of options.
 
-## [Live Demo](https://car-showcase-js.netlify.app/)
+## Live Demo
 
 Check out the live demo of the app [here](https://car-showcase-js.netlify.app/).
 
@@ -52,4 +52,3 @@ Below is a brief overview of the key technologies and libraries used:
 
 - [API Ninjas](https://rapidapi.com/apininjas/api/cars-by-api-ninjas/) for fetching car details
 - [Imagin.Studio Stock Car Image API](https://www.imagin.studio/) for fetching car images
-- 
