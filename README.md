@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Showcase App
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+1. [About the Project](#about-the-project)
+2. [Live Demo](#live-demo)
+3. [Installation](#installation)
+4. [Technologies](#technologies)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## About the Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Car Showcase App allows users to search for a wide variety of cars available from 2015 to 2023. The application uses the API Ninjas service to fetch car details and Imagin.Studio's stock car image API for visual representation. Whether you are a car enthusiast or in the market for a new vehicle, this app provides a comprehensive view of options.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Check out the live demo of the app [here](https://car-showcase-js.netlify.app/).
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To set up the project locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Jaron-S/car-showcase.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd car-showcase
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
+5. Open your browser and go to `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies
 
-## Deploy on Vercel
+Below is a brief overview of the key technologies and libraries used:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js as the React framework for building the frontend
+- Tailwind CSS for utility-first styling
+- Headless UI for UI components
+- TypeScript for static typing
+
+### APIs
+
+- [API Ninjas](https://rapidapi.com/apininjas/api/cars-by-api-ninjas/) for fetching car details
+- [Imagin.Studio Stock Car Image API](https://www.imagin.studio/) for fetching car images
